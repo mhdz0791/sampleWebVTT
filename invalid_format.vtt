@@ -1,6 +1,13 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:05.000
-Missing line break between cues.
-00:00:05.001 --> 00:00:10.000
-Will this be detected?
+NOTE
+This file has intentional errors.
+
+00:00:00.000 --> INVALID
+This line has an invalid timestamp.
+
+00:00:05.000 --> 00:00:10.000
+This caption is valid.
+
+INVALID TIMESTAMP --> 00:00:15.000
+This cue starts with an invalid timestamp.
